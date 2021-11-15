@@ -1,1 +1,2 @@
-# midterm_web_project
+# midtrem project of Gulnaz Gimaletdinova
+# Open with index.html
