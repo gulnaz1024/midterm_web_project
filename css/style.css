@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+#home {
+  background-color: crimson;
+}
+
+ul.main {
+  margin: 0; /* Обнуляем значение отступов */
+  padding: 4px; /* Значение полей */
+  text-align: right;
+}
+ul.main li {
+  display: inline; /* Отображать как строчный элемент */
+  margin-left: 15px; /* Отступ слева */
+  border: 1px solid #000; /* Рамка вокруг текста */
+  padding: 3px; /* Поля вокруг текста */
+  vertical-align: middle;
+  font-size: 20px;
+  line-height: 28px;
+  color: white;
+}
+.name {
+  font-size: 30px;
+  line-height: 30px;
+  margin-right: 5px;
+  color: white;
+  text-align: center;
+}
+
+.first_home {
+  background-color: cyan;
+  color: black;
+  display: grid;
+  width: vw;
+  font-size: 30px;
+  background: url(../img/hidjab3.jpg) no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+
+.first_about {
+  background-color:whitesmoke;
+  color:black;
+  display: grid;
+  height: auto;
+  width: auto;
+  margin: 2px;
+  align-items: center;
+  justify-content: center;
+}
+
+.col {
+  font-size: 25px;
+}
+
+
+.first_gallery {
+  background-color: white;
+  color: black;
+  display: grid;
+  height: auto;
+  width: 100%;
+}
+.first_contact {
+  background-color:black;
+  display: inline;
+  display: grid;
+  vertical-align: middle;
+  font-size: 20px;
+  line-height: 28px;
+  
+}
+.row {
+  display: grid;
+  grid-column-end:auto;
+}
+
+body {
+  padding: 0px;
+  font-family: sans-serif;
+  background: #f2f2f2;
+}
+img {
+  max-width: auto; /* need to overwrite inline dimensions */
+  height: auto;
+}
+h2 {
+  margin-bottom: .1em;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 1em;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: black;
+  color:white;
+}
+.ftco-footer-social{
+  text-align: center;
+  font-size: 30px;
+}
+iframe {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+
+}
